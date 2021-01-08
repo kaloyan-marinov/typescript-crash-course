@@ -19,3 +19,21 @@ myVar = '5' // or: 'Hello' ; true
 
 console.log('The simple data types:');
 console.log(myVar);
+
+/* Arrays */
+let strArr: string[];
+let numArr: number[];
+let boolArr: boolean[];
+/* Another way to define arrays: */
+// let strArr: Array<string>;
+// let numArr: Array<number>;
+// let boolArr: Array<boolean>;
+
+strArr = ['Hello', 'World'];
+numArr = [1, 2, 3];
+boolArr = [true, false, true]
+
+console.log('Arrays:');
+console.log(strArr);
+console.log(numArr);
+console.log(boolArr);
