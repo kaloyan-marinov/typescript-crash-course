@@ -48,3 +48,25 @@ strNumTuple = ['Hello', 1];
 
 console.log('Tuples:');
 console.log(strNumTuple);
+
+/* void, undefined, and null */
+let myVoid: void;
+let myNull: null;
+let myUndefined: undefined;
+
+myVoid = null;
+// myVoid = undefined; // also OK
+// myVoid = 1; // bad
+
+myNull = null;
+// myNull = undefined; // also OK
+// myNull = 1; // bad
+
+myUndefined = null;
+// myUndefined = undefined; // also OK
+// myUndefined = 1; // bad
+
+console.log('void, undefined, and null:');
+console.log(myVoid);
+console.log(myNull);
+console.log(myUndefined);
