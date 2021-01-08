@@ -37,3 +37,14 @@ console.log('Arrays:');
 console.log(strArr);
 console.log(numArr);
 console.log(boolArr);
+
+/* Tuples (tuple = an array with a defined number of elements */
+let strNumTuple: [string, number];
+
+strNumTuple = ['Hello', 1];
+// strNumTuple = ['Hello', '1']; // bad
+// strNumTuple = [1234567, 1]; // bad
+// strNumTuple = ['Hello', 1, 2, 3]; // OK according to the tutorial, but actually seems to be bad as of 2021/01/08
+
+console.log('Tuples:');
+console.log(strNumTuple);
